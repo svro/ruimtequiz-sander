@@ -284,7 +284,7 @@
         "fr":  "un chemin"
     },
     {
-        "nl":  "de chocolade",
+        "nl":  "een paard",
         "fr":  "un cheval, des chevaux"
     },
     {
@@ -292,7 +292,7 @@
         "fr":  "le chocolat"
     },
     {
-        "nl":  "de chocolade",
+        "nl":  "de chocolademelk",
         "fr":  "le chocolat"
     },
     {
@@ -300,7 +300,7 @@
         "fr":  "un cinéma"
     },
     {
-        "nl":  "een varken",
+        "nl":  "de cola",
         "fr":  "le coca"
     },
     {
@@ -312,87 +312,87 @@
         "fr":  "combien ?"
     },
     {
-        "nl":  "Hoeveel is het samen?",
+        "nl":  "hoeveel liedjes?",
         "fr":  "combien de chansons ?"
     },
     {
-        "nl":  "begrijpen, verstaan",
+        "nl":  "Hoeveel is het samen?",
         "fr":  "Ça fait combien ?"
     },
     {
-        "nl":  "begrijpen",
+        "nl":  "begrijpen, verstaan",
         "fr":  "comprendre"
     },
     {
-        "nl":  "de jam, confituur",
+        "nl":  "tellen",
         "fr":  "compter"
     },
     {
-        "nl":  "de jam",
+        "nl":  "de jam, confituur",
         "fr":  "la confiture"
     },
     {
-        "nl":  "tegen (de muur)",
+        "nl":  "kennen",
         "fr":  "connaître"
     },
     {
-        "nl":  "een haan",
+        "nl":  "tegen de muur",
         "fr":  "contre le mur"
     },
     {
-        "nl":  "naast (de school)",
+        "nl":  "een haan",
         "fr":  "un coq"
     },
     {
-        "nl":  "lopen, rennen: ik loop, jij loopt, hij loopt",
+        "nl":  "naast de school",
         "fr":  "côté, à côté de l\u0027école"
     },
     {
-        "nl":  "een",
+        "nl":  "lopen, rennen: ik loop, jij loopt, hij loopt",
         "fr":  "courir, je cours, tu cours, il court"
     },
     {
-        "nl":  "kosten",
+        "nl":  "een mes",
         "fr":  "un couteau, des couteaux"
     },
     {
-        "nl":  "Hoeveel kost de boter?",
+        "nl":  "kosten",
         "fr":  "coûter"
     },
     {
-        "nl":  "een croissant",
+        "nl":  "Hoeveel kost de boter?",
         "fr":  "Combien coûte le beurre ?"
     },
     {
-        "nl":  "een lepel",
+        "nl":  "een croissant",
         "fr":  "un croissant"
     },
     {
-        "nl":  "eerst, vooreerst",
+        "nl":  "een lepel",
         "fr":  "une cuillère, cuiller"
     },
     {
-        "nl":  "akkoord, oké, goed",
+        "nl":  "eerst, vooreerst",
         "fr":  "d\u0027abord"
     },
     {
-        "nl":  "(jam)",
+        "nl":  "akkoord, oké, goed",
         "fr":  "d\u0027accord"
     },
     {
-        "nl":  "tot morgen",
+        "nl":  "van, de, wat confituur",
         "fr":  "de, de la confiture"
     },
     {
-        "nl":  "vragen aan (Ria)",
+        "nl":  "tot morgen",
         "fr":  "demain, à demain"
     },
     {
-        "nl":  "half(acht), 7.30 u",
+        "nl":  "vragen aan Ria",
         "fr":  "demander à Ria"
     },
     {
-        "nl":  "een tand",
+        "nl":  "halfacht, 7.30 u",
         "fr":  "demi, sept heures et demie"
     },
     {
@@ -400,7 +400,7 @@
         "fr":  "une dent"
     },
     {
-        "nl":  "van: (de hond) van de (kinderen)",
+        "nl":  "laatste",
         "fr":  "dernier, dernière"
     },
     {
@@ -444,7 +444,7 @@
         "fr":  "un docteur"
     },
     {
-        "nl":  "een",
+        "nl":  "een vinger",
         "fr":  "un doigt"
     },
     {
@@ -468,7 +468,7 @@
         "fr":  "à droite"
     },
     {
-        "nl":  "(ham)",
+        "nl":  "van de, wat ham",
         "fr":  "du, du jambon"
     },
     {
@@ -484,11 +484,11 @@
         "fr":  "écrire"
     },
     {
-        "nl":  "schrijven",
+        "nl":  "(met) haar",
         "fr":  "elle, avec elle"
     },
     {
-        "nl":  "(met) haar",
+        "nl":  "(met) hen (v.)",
         "fr":  "elles, avec elles"
     },
     {
@@ -496,35 +496,35 @@
         "fr":  "un e-mail"
     },
     {
-        "nl":  "een e-mail",
+        "nl":  "in augustus",
         "fr":  "en août"
     },
     {
-        "nl":  "in (augustus)",
+        "nl":  "nog: ik heb nog een broer",
         "fr":  "encore, J\u0027ai encore un frère."
     },
     {
-        "nl":  "nog: lk heb nog een broer.",
+        "nl":  "Nog een beetje ...?",
         "fr":  "Encore un peu de ... ?"
     },
     {
-        "nl":  "Nog een beetje ?",
+        "nl":  "ten slotte, eindelijk",
         "fr":  "enfin"
     },
     {
-        "nl":  "ten slotte, eindelijk",
+        "nl":  "horen",
         "fr":  "entendre"
     },
     {
-        "nl":  "horen",
+        "nl":  "een ingang, toegang",
         "fr":  "une entrée"
     },
     {
-        "nl":  "een ingang, toegang",
+        "nl":  "zin hebben in peren",
         "fr":  "envie, avoir envie de poires"
     },
     {
-        "nl":  "zin hebben in (peren)",
+        "nl":  "Nog iets anders?",
         "fr":  "et, Et avec ça ?"
     },
     {
@@ -532,11 +532,11 @@
         "fr":  "l\u0027été"
     },
     {
-        "nl":  "de zomer",
+        "nl":  "in de zomer",
         "fr":  "en été"
     },
     {
-        "nl":  "in de zomer",
+        "nl":  "ik heb het warm gehad",
         "fr":  "eu, j\u0027ai eu chaud"
     },
     {
@@ -552,7 +552,7 @@
         "fr":  "eux, avec eux"
     },
     {
-        "nl":  "(met) hen (m.)",
+        "nl":  "honger hebben",
         "fr":  "faim, avoir faim"
     },
     {
