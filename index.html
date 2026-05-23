@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planetenquiz voor Sander</title>
+  <title>Ruimte en Franse quiz voor Sander</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="sky"></div>
   <main class="app-shell">
     <section class="hero">
-      <p class="eyebrow">Ruimtequiz</p>
-      <h1>Op ontdekking in het heelal</h1>
+      <p class="eyebrow">Kies een quiz</p>
+      <h1>Ruimte of Frans oefenen</h1>
       <p class="intro">
-        Een speelse quiz op basis van beide bundels. Elke ronde bevat 25 vragen over planeten,
-        aarde, maan, ruimtevaart en de belangrijke tijdslijn achteraan. Je kunt ook apart oefenen
-        in tijdslijnmodus.
+        Kies eerst welke quiz je wilt spelen. De ruimtequiz bevat 25 vragen per ronde over
+        planeten, aarde, ruimtevaart en de tijdslijn. De Franse quiz toont een Nederlands woord
+        en laat het juiste Franse woord kiezen uit 5 mogelijkheden.
       </p>
       <div class="hero-actions">
-        <button id="start-button" class="primary-button" type="button">Start volledige quiz</button>
+        <button id="start-button" class="primary-button" type="button">Start ruimtequiz</button>
         <button id="timeline-button" class="primary-button" type="button">Start tijdslijnmodus</button>
+        <button id="french-button" class="primary-button" type="button">Start Franse quiz</button>
         <button id="restart-button" class="ghost-button" type="button">Nieuwe ronde</button>
       </div>
     </section>
@@ -49,7 +50,7 @@
 
       <h2 id="question-text">Tik op start om de eerste vraag te krijgen.</h2>
       <p id="question-hint" class="question-hint">
-        Je krijgt 25 meerkeuzevragen over ruimte, planeten en de tijdslijn, of een aparte ronde in tijdslijnmodus.
+        Kies een quiz en start daarna je ronde.
       </p>
 
       <div id="answers" class="answers" role="list"></div>
@@ -70,9 +71,9 @@
       <div class="study-heading">
         <div>
           <p class="eyebrow">Snel herhalen</p>
-          <h2>Ruimtekaartjes</h2>
+          <h2 id="study-title">Ruimtekaartjes</h2>
         </div>
-        <p class="study-copy">
+        <p id="study-copy" class="study-copy">
           Handig om eerst te oefenen en daarna de quiz opnieuw te starten.
         </p>
       </div>

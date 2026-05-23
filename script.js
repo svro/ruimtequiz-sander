@@ -1,6 +1,7 @@
 const ROUND_SIZE = 25;
 const MODE_ALL = "all";
 const MODE_TIMELINE = "timeline";
+const MODE_FRENCH = "french";
 
 const bodies = [
   {
@@ -158,6 +159,152 @@ const topicCards = [
   }
 ];
 
+const frenchVocabulary = [
+  { nl: "aan (Joelle geven)", fr: "a" },
+  { nl: "tot morgen", fr: "A demain!" },
+  { nl: "kopen", fr: "acheter" },
+  { nl: "een agent", fr: "un agent" },
+  { nl: "helpen", fr: "aider" },
+  { nl: "een vriend", fr: "un ami" },
+  { nl: "een vriendin", fr: "une amie" },
+  { nl: "(het) Engels", fr: "l'anglais" },
+  { nl: "een jaar", fr: "une annee" },
+  { nl: "leren", fr: "apprendre" },
+  { nl: "namiddag", fr: "apres-midi" },
+  { nl: "stoppen", fr: "arreter" },
+  { nl: "komen, aankomen", fr: "arriver" },
+  { nl: "een bord", fr: "une assiette" },
+  { nl: "een vliegtuig", fr: "un avion" },
+  { nl: "een stokbrood", fr: "une baguette" },
+  { nl: "een banaan", fr: "une banane" },
+  { nl: "een schip, boot", fr: "un bateau" },
+  { nl: "de boter", fr: "le beurre" },
+  { nl: "het bier", fr: "la biere" },
+  { nl: "een arm", fr: "un bras" },
+  { nl: "de koffie", fr: "le cafe" },
+  { nl: "een vrachtwagen", fr: "un camion" },
+  { nl: "het platteland", fr: "la campagne" },
+  { nl: "een wortel", fr: "une carotte" },
+  { nl: "een kruispunt", fr: "un carrefour" },
+  { nl: "een kaart", fr: "une carte" },
+  { nl: "een centiem", fr: "un centime" },
+  { nl: "warm", fr: "chaud" },
+  { nl: "een sok", fr: "une chaussette" },
+  { nl: "een weg", fr: "un chemin" },
+  { nl: "een paard", fr: "un cheval" },
+  { nl: "de chocolade", fr: "le chocolat" },
+  { nl: "een bioscoop", fr: "un cinema" },
+  { nl: "een varken", fr: "un cochon" },
+  { nl: "begrijpen", fr: "comprendre" },
+  { nl: "de jam", fr: "la confiture" },
+  { nl: "een tand", fr: "une dent" },
+  { nl: "een dessert", fr: "un dessert" },
+  { nl: "zondag", fr: "dimanche" },
+  { nl: "slapen", fr: "dormir" },
+  { nl: "een rug", fr: "un dos" },
+  { nl: "het water", fr: "l'eau" },
+  { nl: "schrijven", fr: "ecrire" },
+  { nl: "een e-mail", fr: "un e-mail" },
+  { nl: "de zomer", fr: "l'ete" },
+  { nl: "een euro", fr: "un euro" },
+  { nl: "een fout", fr: "une faute" },
+  { nl: "een film", fr: "un film" },
+  { nl: "een bloem", fr: "une fleur" },
+  { nl: "een vork", fr: "une fourchette" },
+  { nl: "de kaas", fr: "le fromage" },
+  { nl: "een vrucht", fr: "un fruit" },
+  { nl: "winnen", fr: "gagner" },
+  { nl: "links", fr: "a gauche" },
+  { nl: "een knie", fr: "un genou" },
+  { nl: "een gsm", fr: "un GSM" },
+  { nl: "de winter", fr: "l'hiver" },
+  { nl: "een ziekenhuis", fr: "un hopital" },
+  { nl: "een been", fr: "une jambe" },
+  { nl: "donderdag", fr: "jeudi" },
+  { nl: "een dag", fr: "un jour" },
+  { nl: "de melk", fr: "le lait" },
+  { nl: "een groente", fr: "un legume" },
+  { nl: "lezen", fr: "lire" },
+  { nl: "maandag", fr: "lundi" },
+  { nl: "een bril", fr: "des lunettes" },
+  { nl: "een winkel", fr: "un magasin" },
+  { nl: "een hand", fr: "une main" },
+  { nl: "eten", fr: "manger" },
+  { nl: "dinsdag", fr: "mardi" },
+  { nl: "de zee", fr: "la mer" },
+  { nl: "een geneesmiddel", fr: "un medicament" },
+  { nl: "woensdag", fr: "mercredi" },
+  { nl: "een bericht", fr: "un message" },
+  { nl: "een miljoen", fr: "un million" },
+  { nl: "een maand", fr: "un mois" },
+  { nl: "een berg", fr: "une montagne" },
+  { nl: "een woord", fr: "un mot" },
+  { nl: "een muur", fr: "un mur" },
+  { nl: "de sneeuw", fr: "la neige" },
+  { nl: "een oom", fr: "un oncle" },
+  { nl: "een sinaasappel", fr: "une orange" },
+  { nl: "een bladzijde", fr: "une page" },
+  { nl: "een brood", fr: "un pain" },
+  { nl: "Parijs", fr: "Paris" },
+  { nl: "spreken", fr: "parler" },
+  { nl: "vertrekken", fr: "partir" },
+  { nl: "een land", fr: "un pays" },
+  { nl: "een ontbijt", fr: "un petit dejeuner" },
+  { nl: "een beetje", fr: "un peu" },
+  { nl: "een zin", fr: "une phrase" },
+  { nl: "een pizza", fr: "une pizza" },
+  { nl: "een plaats", fr: "une place" },
+  { nl: "een peer", fr: "une poire" },
+  { nl: "een appel", fr: "une pomme" },
+  { nl: "een aardappel", fr: "une pomme de terre" },
+  { nl: "een laptop", fr: "un portable" },
+  { nl: "een pot", fr: "un pot" },
+  { nl: "een kip", fr: "une poule" },
+  { nl: "waarom?", fr: "pourquoi?" },
+  { nl: "de lente", fr: "le printemps" },
+  { nl: "een prijs", fr: "un prix" },
+  { nl: "een wandeling", fr: "une promenade" },
+  { nl: "een maaltijd", fr: "un repas" },
+  { nl: "een restaurant", fr: "un restaurant" },
+  { nl: "tot ziens!", fr: "Au revoir!" },
+  { nl: "een rotonde", fr: "un rond-point" },
+  { nl: "een baan, weg", fr: "une route" },
+  { nl: "een sla", fr: "une salade" },
+  { nl: "zaterdag", fr: "samedi" },
+  { nl: "een saus", fr: "une sauce" },
+  { nl: "een week", fr: "une semaine" },
+  { nl: "de zon", fr: "le soleil" },
+  { nl: "een uitgang", fr: "une sortie" },
+  { nl: "de soep", fr: "la soupe" },
+  { nl: "spaghetti", fr: "des spaghettis" },
+  { nl: "de suiker", fr: "le sucre" },
+  { nl: "een supermarkt", fr: "un supermarche" },
+  { nl: "een boterham", fr: "une tartine" },
+  { nl: "een kop thee", fr: "une tasse de the" },
+  { nl: "de tijd", fr: "le temps" },
+  { nl: "een hoofd", fr: "une tete" },
+  { nl: "een tekst", fr: "un texte" },
+  { nl: "de thee", fr: "le the" },
+  { nl: "een tomaat", fr: "une tomate" },
+  { nl: "vallen", fr: "tomber" },
+  { nl: "alles", fr: "tout" },
+  { nl: "werken", fr: "travailler" },
+  { nl: "een koe", fr: "une vache" },
+  { nl: "verkopen", fr: "vendre" },
+  { nl: "vrijdag", fr: "vendredi" },
+  { nl: "komen", fr: "venir" },
+  { nl: "de wind", fr: "le vent" },
+  { nl: "een buik", fr: "un ventre" },
+  { nl: "het vlees", fr: "la viande" },
+  { nl: "een dorp", fr: "un village" },
+  { nl: "een stad", fr: "une ville" },
+  { nl: "de wijn", fr: "le vin" },
+  { nl: "een buurman", fr: "un voisin" },
+  { nl: "een buurvrouw", fr: "une voisine" },
+  { nl: "een reis", fr: "un voyage" },
+  { nl: "een weekend", fr: "un week-end" }
+];
+
 const quizState = {
   questions: [],
   currentIndex: 0,
@@ -181,8 +328,11 @@ const summaryCard = document.getElementById("summary-card");
 const summaryText = document.getElementById("summary-text");
 const summaryStars = document.getElementById("summary-stars");
 const studyCards = document.getElementById("study-cards");
+const studyTitle = document.getElementById("study-title");
+const studyCopy = document.getElementById("study-copy");
 const startButton = document.getElementById("start-button");
 const timelineButton = document.getElementById("timeline-button");
+const frenchButton = document.getElementById("french-button");
 const restartButton = document.getElementById("restart-button");
 
 function shuffle(array) {
@@ -194,8 +344,8 @@ function shuffle(array) {
   return copy;
 }
 
-function buildOptions(correctAnswer, pool) {
-  const wrongOptions = shuffle(pool.filter((option) => option !== correctAnswer)).slice(0, 3);
+function buildOptions(correctAnswer, pool, count = 4) {
+  const wrongOptions = shuffle(pool.filter((option) => option !== correctAnswer)).slice(0, count - 1);
   return shuffle([correctAnswer, ...wrongOptions]);
 }
 
@@ -268,6 +418,19 @@ function buildQuestionBank() {
 
     return questionSet;
   });
+}
+
+function buildFrenchQuestionBank() {
+  const frenchOptions = frenchVocabulary.map((entry) => entry.fr);
+
+  return frenchVocabulary.map((entry) => ({
+    tag: "Frans | Woordenschat",
+    prompt: `Wat is het Franse woord voor "${entry.nl}"?`,
+    hint: "Kies het juiste Franse woord uit 5 mogelijkheden.",
+    correct: entry.fr,
+    options: buildOptions(entry.fr, frenchOptions, 5),
+    explanation: `"${entry.nl}" is in het Frans "${entry.fr}".`
+  }));
 }
 
 const extraQuestions = [];
@@ -753,12 +916,24 @@ const timelineQuestions = [
 ];
 
 function getModeLabel(mode) {
-  return mode === MODE_TIMELINE ? "tijdslijnmodus" : "volledige quiz";
+  if (mode === MODE_TIMELINE) {
+    return "tijdslijnmodus";
+  }
+
+  if (mode === MODE_FRENCH) {
+    return "Franse quiz";
+  }
+
+  return "volledige quiz";
 }
 
 function getQuestionPool(mode) {
   if (mode === MODE_TIMELINE) {
     return timelineQuestions;
+  }
+
+  if (mode === MODE_FRENCH) {
+    return buildFrenchQuestionBank();
   }
 
   return [...buildQuestionBank(), ...extraQuestions];
@@ -778,8 +953,30 @@ function updateStatus() {
   progressBarFill.style.width = total ? `${(quizState.currentIndex / total) * 100}%` : "0%";
 }
 
-function renderStudyCards() {
+function renderStudyCards(mode = quizState.mode) {
   studyCards.innerHTML = "";
+
+  if (mode === MODE_FRENCH) {
+    studyTitle.textContent = "Franse woordkaartjes";
+    studyCopy.textContent = "Bekijk eerst wat woorden en start daarna een nieuwe Franse ronde.";
+
+    frenchVocabulary.slice(0, 18).forEach((entry) => {
+      const card = document.createElement("article");
+      card.className = "study-card";
+      card.innerHTML = `
+        <p class="eyebrow">Franse quiz</p>
+        <h3>${entry.nl}</h3>
+        <p class="meta">${entry.fr}</p>
+        <p>Nederlands naar Frans</p>
+      `;
+      studyCards.appendChild(card);
+    });
+
+    return;
+  }
+
+  studyTitle.textContent = "Ruimtekaartjes";
+  studyCopy.textContent = "Handig om eerst te oefenen en daarna de quiz opnieuw te starten.";
 
   bodies.forEach((body) => {
     const card = document.createElement("article");
@@ -823,11 +1020,17 @@ function renderQuestion() {
     return;
   }
 
-  questionTag.textContent = quizState.mode === MODE_TIMELINE ? "Tijdslijnmodus" : question.tag;
+  questionTag.textContent = quizState.mode === MODE_TIMELINE
+    ? "Tijdslijnmodus"
+    : quizState.mode === MODE_FRENCH
+      ? "Franse quiz"
+      : question.tag;
   questionText.textContent = question.prompt;
   questionHint.textContent = quizState.mode === MODE_TIMELINE
     ? `${question.hint} Je zit nu in de tijdslijnmodus.`
-    : question.hint;
+    : quizState.mode === MODE_FRENCH
+      ? `${question.hint} Je ziet eerst het Nederlandse woord en kiest daarna het juiste Franse antwoord.`
+      : question.hint;
   feedback.textContent = "Kies het antwoord dat volgens jou juist is.";
   feedback.className = "feedback";
   nextButton.classList.add("hidden");
@@ -885,11 +1088,17 @@ function handleAnswer(option, button) {
 function finishRound() {
   const total = quizState.questions.length;
   const percentage = Math.round((quizState.score / total) * 100);
-  const praise = percentage >= 85
-    ? "Superknap. De ruimtekennis zit al stevig in je hoofd."
-    : percentage >= 60
-      ? "Mooi bezig. Nog een ronde en veel details gaan blijven hangen."
-      : "Goede start. Kijk nog even naar de kaartjes en probeer daarna opnieuw.";
+  const praise = quizState.mode === MODE_FRENCH
+    ? percentage >= 85
+      ? "Superknap. Die Franse woorden zitten al sterk in je hoofd."
+      : percentage >= 60
+        ? "Mooi bezig. Nog een Franse ronde en er blijft veel hangen."
+        : "Goede start. Bekijk nog even de woordkaartjes en probeer daarna opnieuw."
+    : percentage >= 85
+      ? "Superknap. De ruimtekennis zit al stevig in je hoofd."
+      : percentage >= 60
+        ? "Mooi bezig. Nog een ronde en veel details gaan blijven hangen."
+        : "Goede start. Kijk nog even naar de kaartjes en probeer daarna opnieuw.";
 
   summaryCard.classList.remove("hidden");
   summaryText.textContent = `Je had ${quizState.score} op ${total} in de ${getModeLabel(quizState.mode)}. ${praise}`;
@@ -919,6 +1128,7 @@ function startRound(mode = quizState.mode) {
   quizState.streak = 0;
   quizState.answered = false;
   summaryCard.classList.add("hidden");
+  renderStudyCards(mode);
   renderQuestion();
 }
 
@@ -929,7 +1139,8 @@ nextButton.addEventListener("click", () => {
 
 startButton.addEventListener("click", () => startRound(MODE_ALL));
 timelineButton.addEventListener("click", () => startRound(MODE_TIMELINE));
+frenchButton.addEventListener("click", () => startRound(MODE_FRENCH));
 restartButton.addEventListener("click", () => startRound(quizState.mode));
 
-renderStudyCards();
+renderStudyCards(MODE_ALL);
 updateStatus();

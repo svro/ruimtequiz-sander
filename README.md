@@ -1,11 +1,12 @@
 # Ruimtequiz
 
-Een mobiele quizwebsite in HTML, CSS en JavaScript voor het inoefenen van leerstof over ruimte, planeten en ruimtevaart.
+Een mobiele quizwebsite in HTML, CSS en JavaScript voor het inoefenen van leerstof over ruimte, planeten, ruimtevaart en Franse woordenschat.
 
 ## Inhoud
 
-- volledige quiz met 25 vragen per ronde
+- ruimtequiz met 25 vragen per ronde
 - aparte tijdslijnmodus met vragen over de evolutie van de ruimtevaart
+- Franse quiz met Nederlandse woorden en 5 Franse antwoordopties
 - herhaalkaartjes onderaan de pagina
 - geen buildstap nodig: de site draait rechtstreeks als statische website
 
