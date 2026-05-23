@@ -13,6 +13,7 @@ Een mobiele quizwebsite in HTML, CSS en JavaScript voor het inoefenen van leerst
 ## Bestanden
 
 - `index.html`: pagina-opbouw
+- `french-vocabulary.js`: volledige Franse woordenlijst voor de quiz
 - `styles.css`: layout en mobiele styling
 - `script.js`: quizvragen, modi en logica
 - `netlify.toml`: Netlify-configuratie

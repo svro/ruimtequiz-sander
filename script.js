@@ -159,7 +159,7 @@ const topicCards = [
   }
 ];
 
-const frenchVocabulary = [
+const frenchVocabulary = window.frenchVocabulary ?? [
   { nl: "aan (Joelle geven)", fr: "a" },
   { nl: "tot morgen", fr: "A demain!" },
   { nl: "kopen", fr: "acheter" },
@@ -957,26 +957,12 @@ function renderStudyCards(mode = quizState.mode) {
   studyCards.innerHTML = "";
 
   if (mode === MODE_FRENCH) {
-    studyTitle.textContent = "Franse woordkaartjes";
-    studyCopy.textContent = "Bekijk eerst wat woorden en start daarna een nieuwe Franse ronde.";
-
-    frenchVocabulary.slice(0, 18).forEach((entry) => {
-      const card = document.createElement("article");
-      card.className = "study-card";
-      card.innerHTML = `
-        <p class="eyebrow">Franse quiz</p>
-        <h3>${entry.nl}</h3>
-        <p class="meta">${entry.fr}</p>
-        <p>Nederlands naar Frans</p>
-      `;
-      studyCards.appendChild(card);
-    });
-
-    return;
+    studyTitle.textContent = "Ruimtekaartjes";
+    studyCopy.textContent = "Tijdens de Franse quiz blijven alleen de ruimtekaartjes zichtbaar.";
+  } else {
+    studyTitle.textContent = "Ruimtekaartjes";
+    studyCopy.textContent = "Handig om eerst te oefenen en daarna de quiz opnieuw te starten.";
   }
-
-  studyTitle.textContent = "Ruimtekaartjes";
-  studyCopy.textContent = "Handig om eerst te oefenen en daarna de quiz opnieuw te starten.";
 
   bodies.forEach((body) => {
     const card = document.createElement("article");
