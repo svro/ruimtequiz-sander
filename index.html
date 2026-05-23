@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planetenquiz voor Sander</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky"></div>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">Ruimtequiz</p>
+      <h1>Op ontdekking in het heelal</h1>
+      <p class="intro">
+        Een speelse quiz op basis van beide bundels. Elke ronde bevat 25 vragen over planeten,
+        aarde, maan, ruimtevaart en de belangrijke tijdslijn achteraan. Je kunt ook apart oefenen
+        in tijdslijnmodus.
+      </p>
+      <div class="hero-actions">
+        <button id="start-button" class="primary-button" type="button">Start volledige quiz</button>
+        <button id="timeline-button" class="primary-button" type="button">Start tijdslijnmodus</button>
+        <button id="restart-button" class="ghost-button" type="button">Nieuwe ronde</button>
+      </div>
+    </section>
+
+    <section class="status-panel" aria-label="Quizstatus">
+      <article class="status-card">
+        <span class="status-label">Vraag</span>
+        <strong id="progress-value">0 / 0</strong>
+      </article>
+      <article class="status-card">
+        <span class="status-label">Score</span>
+        <strong id="score-value">0</strong>
+      </article>
+      <article class="status-card">
+        <span class="status-label">Reeks</span>
+        <strong id="streak-value">0</strong>
+      </article>
+    </section>
+
+    <section class="quiz-card" aria-live="polite">
+      <div class="question-topline">
+        <span id="question-tag" class="question-tag">Klaar?</span>
+        <div class="progress-bar" aria-hidden="true">
+          <span id="progress-bar-fill"></span>
+        </div>
+      </div>
+
+      <h2 id="question-text">Tik op start om de eerste vraag te krijgen.</h2>
+      <p id="question-hint" class="question-hint">
+        Je krijgt 25 meerkeuzevragen over ruimte, planeten en de tijdslijn, of een aparte ronde in tijdslijnmodus.
+      </p>
+
+      <div id="answers" class="answers" role="list"></div>
+
+      <div class="feedback-row">
+        <p id="feedback" class="feedback">Veel plezier met oefenen.</p>
+        <button id="next-button" class="primary-button hidden" type="button">Volgende vraag</button>
+      </div>
+    </section>
+
+    <section id="summary-card" class="summary-card hidden" aria-live="polite">
+      <h2>Ronde klaar</h2>
+      <p id="summary-text"></p>
+      <div id="summary-stars" class="summary-stars" aria-hidden="true"></div>
+    </section>
+
+    <section class="study-section">
+      <div class="study-heading">
+        <div>
+          <p class="eyebrow">Snel herhalen</p>
+          <h2>Ruimtekaartjes</h2>
+        </div>
+        <p class="study-copy">
+          Handig om eerst te oefenen en daarna de quiz opnieuw te starten.
+        </p>
+      </div>
+      <div id="study-cards" class="study-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
