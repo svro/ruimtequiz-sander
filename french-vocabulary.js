@@ -1,6 +1,6 @@
 ﻿window.frenchVocabulary = [
     {
-        "nl":  "aan",
+        "nl":  "aan (Joelle geven)",
         "fr":  "à"
     },
     {
@@ -12,7 +12,7 @@
         "fr":  "de deux heures à cinq heures"
     },
     {
-        "nl":  "Tot morgen!",
+        "nl":  "tot morgen",
         "fr":  "À demain !"
     },
     {
@@ -52,7 +52,7 @@
         "fr":  "l\u0027anglais"
     },
     {
-        "nl":  "een jaar (duur)",
+        "nl":  "een jaar",
         "fr":  "une année"
     },
     {
@@ -76,7 +76,7 @@
         "fr":  "après-midi, cet après-midi"
     },
     {
-        "nl":  "stoppen, tegenhouden",
+        "nl":  "stoppen",
         "fr":  "arrêter"
     },
     {
@@ -296,7 +296,7 @@
         "fr":  "le chocolat"
     },
     {
-        "nl":  "de cola",
+        "nl":  "een bioscoop",
         "fr":  "un cinéma"
     },
     {
@@ -480,7 +480,7 @@
         "fr":  "l\u0027eau"
     },
     {
-        "nl":  "het water",
+        "nl":  "schrijven",
         "fr":  "écrire"
     },
     {
@@ -528,7 +528,7 @@
         "fr":  "et, Et avec ça ?"
     },
     {
-        "nl":  "Nog iets anders?",
+        "nl":  "de zomer",
         "fr":  "l\u0027été"
     },
     {
@@ -548,7 +548,7 @@
         "fr":  "l\u0027Europe"
     },
     {
-        "nl":  "Europa",
+        "nl":  "(met) hen (m.)",
         "fr":  "eux, avec eux"
     },
     {
@@ -556,11 +556,11 @@
         "fr":  "faim, avoir faim"
     },
     {
-        "nl":  "honger hebben",
+        "nl":  "Het is acht euro.",
         "fr":  "faire, Ça fait huit euros."
     },
     {
-        "nl":  "Het is (8) euro.",
+        "nl":  "men moet werken",
         "fr":  "faut, il faut travailler"
     },
     {
@@ -568,19 +568,19 @@
         "fr":  "une faute"
     },
     {
-        "nl":  "een fout",
+        "nl":  "gesloten, toe",
         "fr":  "fermé, fermée"
     },
     {
-        "nl":  "gesloten, toe",
+        "nl":  "sluiten",
         "fr":  "fermer"
     },
     {
-        "nl":  "sluiten",
+        "nl":  "een licht, verkeerslicht",
         "fr":  "un feu, des feux"
     },
     {
-        "nl":  "een licht, verkeerslicht",
+        "nl":  "een blad van een boom",
         "fr":  "une feuille d\u0027un arbre"
     },
     {
@@ -588,11 +588,11 @@
         "fr":  "un film"
     },
     {
-        "nl":  "een film, speelfilm",
+        "nl":  "Het is gedaan.",
         "fr":  "fini, C\u0027est fini."
     },
     {
-        "nl":  "Het is gedaan.",
+        "nl":  "Vlaanderen",
         "fr":  "la Flandre"
     },
     {
@@ -600,7 +600,7 @@
         "fr":  "une fleur"
     },
     {
-        "nl":  "een bloem (plant)",
+        "nl":  "een keer, maal",
         "fr":  "une fois"
     },
     {
@@ -608,15 +608,15 @@
         "fr":  "une fourchette"
     },
     {
-        "nl":  "een vork",
+        "nl":  "friet, frieten",
         "fr":  "des frites"
     },
     {
-        "nl":  "friet, frieten",
+        "nl":  "koud",
         "fr":  "froid, froide"
     },
     {
-        "nl":  "koud",
+        "nl":  "het koud hebben",
         "fr":  "avoir froid"
     },
     {
@@ -632,27 +632,27 @@
         "fr":  "gagner"
     },
     {
-        "nl":  "winnen",
+        "nl":  "ik heb gewonnen",
         "fr":  "j\u0027ai gagné"
     },
     {
-        "nl":  "ik heb gewonnen",
+        "nl":  "links, linker-",
         "fr":  "gauche, gauche"
     },
     {
-        "nl":  "links, linker-",
+        "nl":  "links, naar links, linksaf",
         "fr":  "à gauche"
     },
     {
-        "nl":  "links, naar links, linksaf",
+        "nl":  "een knie",
         "fr":  "un genou, des genoux"
     },
     {
-        "nl":  "een knie",
+        "nl":  "een ijsje",
         "fr":  "une glace"
     },
     {
-        "nl":  "een ijsje",
+        "nl":  "een gram kaas",
         "fr":  "un gramme de fromage"
     },
     {
@@ -660,27 +660,27 @@
         "fr":  "un GSM"
     },
     {
-        "nl":  "een gsm",
+        "nl":  "het turnen",
         "fr":  "la gymnastique, la gym"
     },
     {
-        "nl":  "het turnen",
+        "nl":  "(zich) kleden, aankleden",
         "fr":  "habiller, s\u0027habiller"
     },
     {
-        "nl":  "(zich) kleden, aankleden",
+        "nl":  "ik kleed me aan",
         "fr":  "je m\u0027habille"
     },
     {
-        "nl":  "ik kleed me aan",
+        "nl":  "Het is halfacht, 7.30 u",
         "fr":  "heure, Il est sept heures et demie."
     },
     {
-        "nl":  "Het is half(acht), 7.30 u",
+        "nl":  "gelukkig",
         "fr":  "heureux, heureuse"
     },
     {
-        "nl":  "gelukkig",
+        "nl":  "gisteren",
         "fr":  "hier"
     },
     {
@@ -688,11 +688,11 @@
         "fr":  "l\u0027hiver"
     },
     {
-        "nl":  "de winter",
+        "nl":  "een ziekenhuis",
         "fr":  "un hôpital, l\u0027hôpital, des hôpitaux"
     },
     {
-        "nl":  "een ziekenhuis",
+        "nl":  "interessant, boeiend",
         "fr":  "intéressant, intéressante"
     },
     {
@@ -700,7 +700,7 @@
         "fr":  "une jambe"
     },
     {
-        "nl":  "een been",
+        "nl":  "de ham",
         "fr":  "le jambon"
     },
     {
@@ -748,19 +748,19 @@
         "fr":  "jusqu\u0027à l\u0027école"
     },
     {
-        "nl":  "tot aan (de school)",
+        "nl":  "een kilo, een kilogram peren",
         "fr":  "un kilo, un kilogramme de poires"
     },
     {
-        "nl":  "[kg] een kilo(gram) (peren)",
+        "nl":  "twee euro per kilo",
         "fr":  "deux euros le kilo"
     },
     {
-        "nl":  "(2 €) per kilo",
+        "nl":  "een kiwi",
         "fr":  "un kiwi"
     },
     {
-        "nl":  "een kiwi",
+        "nl":  "Dat meisje, ik ken haar.",
         "fr":  "la, Cette fille, je la connais."
     },
     {
@@ -768,27 +768,27 @@
         "fr":  "le lait"
     },
     {
-        "nl":  "de melk",
+        "nl":  "(zich) wassen",
         "fr":  "laver, se laver"
     },
     {
-        "nl":  "(zich) wassen",
+        "nl":  "ik was me",
         "fr":  "je me lave"
     },
     {
-        "nl":  "ik was me",
+        "nl":  "Die jongen, ken je hem?",
         "fr":  "le, Ce garçon, tu le connais ?"
     },
     {
-        "nl":  "Die jongen, ken je hem?",
+        "nl":  "een groente",
         "fr":  "un légume"
     },
     {
-        "nl":  "een groente",
+        "nl":  "Die jongens? Ik zoek hen / ze.",
         "fr":  "les, Ces garçons ? Je les cherche."
     },
     {
-        "nl":  "Die jongens? Ik zoek hen / ze.",
+        "nl":  "Die meisjes? Ik zoek hen / ze.",
         "fr":  "Ces filles ? Je les cherche."
     },
     {
@@ -800,23 +800,23 @@
         "fr":  "leurs livres"
     },
     {
-        "nl":  "hun (boek)",
+        "nl":  "opstaan",
         "fr":  "se lever"
     },
     {
-        "nl":  "hun (boeken)",
+        "nl":  "ik sta op",
         "fr":  "je me lève"
     },
     {
-        "nl":  "opstaan",
+        "nl":  "de limonade",
         "fr":  "la limonade"
     },
     {
-        "nl":  "ik sta op",
+        "nl":  "lezen: ik lees, jij leest, hij leest",
         "fr":  "lire, je lis, tu lis, il lit"
     },
     {
-        "nl":  "de limonade",
+        "nl":  "(met) hem",
         "fr":  "lui, avec lui"
     },
     {
@@ -852,15 +852,15 @@
         "fr":  "avoir mal aux pieds"
     },
     {
-        "nl":  "(buik)pijn hebben",
+        "nl":  "ziek",
         "fr":  "malade, malade"
     },
     {
-        "nl":  "pijn aan de (voeten) hebben",
+        "nl":  "een zieke",
         "fr":  "un malade, une malade"
     },
     {
-        "nl":  "ziek",
+        "nl":  "ongelukkig",
         "fr":  "malheureux, malheureuse"
     },
     {
@@ -876,27 +876,27 @@
         "fr":  "un match de foot"
     },
     {
-        "nl":  "dinsdag",
+        "nl":  "vanmorgen",
         "fr":  "matin, ce matin"
     },
     {
-        "nl":  "een (voetbal)wedstrijd",
+        "nl":  "slecht",
         "fr":  "mauvais, mauvaise"
     },
     {
-        "nl":  "vanmorgen",
+        "nl":  "de mayonaise",
         "fr":  "la mayonnaise"
     },
     {
-        "nl":  "slecht",
+        "nl":  "boosaardig, slecht",
         "fr":  "méchant, méchante"
     },
     {
-        "nl":  "de mayonaise",
+        "nl":  "een geneesmiddel",
         "fr":  "un médicament"
     },
     {
-        "nl":  "boosaardig, slecht",
+        "nl":  "een menu",
         "fr":  "un menu"
     },
     {
@@ -904,7 +904,7 @@
         "fr":  "la mer"
     },
     {
-        "nl":  "een menu",
+        "nl":  "dank u wel",
         "fr":  "merci, merci bien"
     },
     {
@@ -916,19 +916,19 @@
         "fr":  "un message"
     },
     {
-        "nl":  "woensdag",
+        "nl":  "plaatsen, (op)zetten, leggen",
         "fr":  "mettre"
     },
     {
-        "nl":  "een sms, bericht",
+        "nl":  "een trui aandoen",
         "fr":  "mettre un pull"
     },
     {
-        "nl":  "plaatsen, (op)zetten, leggen",
+        "nl":  "de tafel dekken",
         "fr":  "mettre la table"
     },
     {
-        "nl":  "(een trui) aandoen",
+        "nl":  "beter: Het gaat beter.",
         "fr":  "mieux, Ça va mieux."
     },
     {
@@ -936,23 +936,23 @@
         "fr":  "un million"
     },
     {
-        "nl":  "beter: Het gaat beter.",
+        "nl":  "een miljoen dvd\u0027s",
         "fr":  "un million de DVD"
     },
     {
-        "nl":  "een miljoen",
+        "nl":  "middernacht",
         "fr":  "minuit"
     },
     {
-        "nl":  "een miljoen (dvd\u0027s)",
+        "nl":  "om middernacht",
         "fr":  "à minuit"
     },
     {
-        "nl":  "middernacht",
+        "nl":  "Het is middernacht.",
         "fr":  "Il est minuit."
     },
     {
-        "nl":  "om middernacht",
+        "nl":  "minder warm",
         "fr":  "moins chaud"
     },
     {
@@ -976,11 +976,11 @@
         "fr":  "un mur"
     },
     {
-        "nl":  "een woord",
+        "nl":  "zwemmen",
         "fr":  "nager"
     },
     {
-        "nl":  "een m",
+        "nl":  "de natuur",
         "fr":  "la nature"
     },
     {
@@ -988,39 +988,39 @@
         "fr":  "la neige"
     },
     {
-        "nl":  "de natuur",
+        "nl":  "Er is sneeuw.",
         "fr":  "Il y a de la neige."
     },
     {
-        "nl":  "de sneeuw",
+        "nl":  "onze boeken",
         "fr":  "nos livres"
     },
     {
-        "nl":  "Er is sneeuw.",
+        "nl":  "ons kind, onze klas",
         "fr":  "notre enfant, notre classe"
     },
     {
-        "nl":  "onze (boeken)",
+        "nl":  "(met) ons",
         "fr":  "nous, avec nous"
     },
     {
-        "nl":  "ons (kind), onze (klas)",
+        "nl":  "\u0027s nachts",
         "fr":  "la nuit"
     },
     {
-        "nl":  "(met) ons",
+        "nl":  "vannacht",
         "fr":  "cette nuit"
     },
     {
-        "nl":  "\u0027s nachts",
+        "nl":  "een ei",
         "fr":  "un œuf, des œufs"
     },
     {
-        "nl":  "vannacht",
+        "nl":  "men speelt, we/ze spelen",
         "fr":  "on joue"
     },
     {
-        "nl":  "een ei",
+        "nl":  "Daar gaan we! We vertrekken!",
         "fr":  "On y va !"
     },
     {
@@ -1040,7 +1040,7 @@
         "fr":  "ouvrir, j\u0027ouvre, tu ouvres, il ouvre"
     },
     {
-        "nl":  "een bladzijde, pagina",
+        "nl":  "een bladzijde",
         "fr":  "une page"
     },
     {
@@ -1052,11 +1052,11 @@
         "fr":  "un pain"
     },
     {
-        "nl":  "op bladzijde (5), op pagina (5)",
+        "nl":  "door Arlon, langs, via",
         "fr":  "par Arlon"
     },
     {
-        "nl":  "een brood",
+        "nl":  "omdat Tim hier is",
         "fr":  "parce que Tim est ici"
     },
     {
@@ -1064,11 +1064,11 @@
         "fr":  "Paris"
     },
     {
-        "nl":  "omdat (Tim hier is)",
+        "nl":  "spreken, praten met/tegen Sam",
         "fr":  "parler à Sam"
     },
     {
-        "nl":  "Parijs",
+        "nl":  "Frans spreken",
         "fr":  "parler français"
     },
     {
@@ -1076,19 +1076,19 @@
         "fr":  "partir"
     },
     {
-        "nl":  "(Frans) spreken",
+        "nl":  "voorbijgaan, langskomen",
         "fr":  "passer"
     },
     {
-        "nl":  "vertrekken, weggaan",
+        "nl":  "de namiddag doorbrengen",
         "fr":  "passer l\u0027après-midi"
     },
     {
-        "nl":  "voorbijgaan, langskomen",
+        "nl":  "Geef mij het vlees door, alsjeblief.",
         "fr":  "Passe-moi la viande, s\u0027il te plaît."
     },
     {
-        "nl":  "(de namiddag) doorbrengen",
+        "nl":  "betalen",
         "fr":  "payer"
     },
     {
@@ -1096,7 +1096,7 @@
         "fr":  "un pays"
     },
     {
-        "nl":  "betalen",
+        "nl":  "tijdens de les, gedurende",
         "fr":  "pendant la leçon"
     },
     {
@@ -1112,7 +1112,7 @@
         "fr":  "peu"
     },
     {
-        "nl":  "een beetje",
+        "nl":  "Ze praat weinig.",
         "fr":  "Elle parle peu."
     },
     {
@@ -1132,7 +1132,7 @@
         "fr":  "avoir peur de tomber"
     },
     {
-        "nl":  "schrik hebben van (die hond), bang zijn voor",
+        "nl":  "misschien",
         "fr":  "peut-être"
     },
     {
@@ -1148,19 +1148,19 @@
         "fr":  "une place"
     },
     {
-        "nl":  "een Pizza",
+        "nl":  "alsjeblieft (bij het vragen)",
         "fr":  "plaît, s\u0027il te plaît"
     },
     {
-        "nl":  "een plein, plaats",
+        "nl":  "sneller",
         "fr":  "plus vite"
     },
     {
-        "nl":  "alsjeblieft (bij het vragen)",
+        "nl":  "niet meer, geen meer",
         "fr":  "plus, ne plus"
     },
     {
-        "nl":  "meer (+ snel = sneller)",
+        "nl":  "Er is geen brood meer.",
         "fr":  "Il n\u0027y a plus de pain."
     },
     {
@@ -1180,7 +1180,7 @@
         "fr":  "un portable"
     },
     {
-        "nl":  "een aardappel",
+        "nl":  "een laptop",
         "fr":  "un ordinateur portable"
     },
     {
@@ -1192,11 +1192,11 @@
         "fr":  "une poule"
     },
     {
-        "nl":  "kip",
+        "nl":  "waarom?",
         "fr":  "pourquoi ?"
     },
     {
-        "nl":  "waarom?",
+        "nl":  "mogen, kunnen",
         "fr":  "pouvoir"
     },
     {
@@ -1244,27 +1244,27 @@
         "fr":  "puis"
     },
     {
-        "nl":  "wandelen",
+        "nl":  "Wat neemt u?",
         "fr":  "que, Que prenez-vous ?"
     },
     {
-        "nl":  "vervolgens, dan, daarna",
+        "nl":  "welke jongen? welk meisje?",
         "fr":  "quel garçon ? quelle fille ?"
     },
     {
-        "nl":  "Wat (neemt u)?",
+        "nl":  "iets",
         "fr":  "quelque chose"
     },
     {
-        "nl":  "welke (jongen)? welk (meisje)?",
+        "nl":  "die, dat: de jongen die zingt, het meisje dat zingt",
         "fr":  "qui, le garçon qui chante, la fille qui chante"
     },
     {
-        "nl":  "iets",
+        "nl":  "Wat doe je?",
         "fr":  "quoi ? Tu fais quoi ?"
     },
     {
-        "nl":  "die, dat: (de jongen) die (zingt), (het meisje) dat (zingt)",
+        "nl":  "vertellen",
         "fr":  "raconter"
     },
     {
@@ -1280,11 +1280,11 @@
         "fr":  "revoir, Au revoir !"
     },
     {
-        "nl":  "een restaurant",
+        "nl":  "niets",
         "fr":  "rien, ne rien"
     },
     {
-        "nl":  "Tot ziens! Tot weerziens!",
+        "nl":  "Ik doe niets.",
         "fr":  "Je ne fais rien."
     },
     {
@@ -1328,15 +1328,15 @@
         "fr":  "une semaine"
     },
     {
-        "nl":  "weten, kennen, kunnen",
+        "nl":  "alleen(staand)",
         "fr":  "seul, seule"
     },
     {
-        "nl":  "een week",
+        "nl":  "indien, als je wil / hij wil",
         "fr":  "si, si tu veux, s\u0027il veut"
     },
     {
-        "nl":  "alleen(staand)",
+        "nl":  "dorst hebben",
         "fr":  "soif, avoir soif"
     },
     {
@@ -1344,7 +1344,7 @@
         "fr":  "le soir"
     },
     {
-        "nl":  "dorst hebben",
+        "nl":  "vanavond",
         "fr":  "ce soir"
     },
     {
@@ -1352,7 +1352,7 @@
         "fr":  "le soleil"
     },
     {
-        "nl":  "vanavond",
+        "nl":  "Er is zon. De zon schijnt.",
         "fr":  "Il y a du soleil."
     },
     {
@@ -1360,7 +1360,7 @@
         "fr":  "une sortie"
     },
     {
-        "nl":  "Er is zon. De zon schijnt.",
+        "nl":  "de school buitengaan, uit de school gaan",
         "fr":  "sortir de l\u0027école"
     },
     {
@@ -1380,11 +1380,11 @@
         "fr":  "le sucre"
     },
     {
-        "nl":  "spaghetti",
+        "nl":  "een supermarkt",
         "fr":  "un supermarché"
     },
     {
-        "nl":  "de suiker",
+        "nl":  "de tafel dekken",
         "fr":  "mettre la table"
     },
     {
@@ -1392,7 +1392,7 @@
         "fr":  "une tante"
     },
     {
-        "nl":  "de tafel dekken",
+        "nl":  "laat beginnen",
         "fr":  "tard, commencer tard"
     },
     {
@@ -1400,11 +1400,11 @@
         "fr":  "une tartine"
     },
     {
-        "nl":  "laat (beginnen)",
+        "nl":  "een kop thee",
         "fr":  "une tasse de thé"
     },
     {
-        "nl":  "een boterham",
+        "nl":  "op de televisie",
         "fr":  "une télé, à la télé"
     },
     {
@@ -1412,7 +1412,7 @@
         "fr":  "le temps"
     },
     {
-        "nl":  "op de televisie",
+        "nl":  "een hoofd",
         "fr":  "une tête"
     },
     {
@@ -1420,7 +1420,7 @@
         "fr":  "un texte"
     },
     {
-        "nl":  "een hoofd",
+        "nl":  "de thee",
         "fr":  "le thé"
     },
     {
@@ -1432,7 +1432,7 @@
         "fr":  "tomber"
     },
     {
-        "nl":  "een tomaat",
+        "nl":  "vroeg aankomen",
         "fr":  "tôt, arriver tôt"
     },
     {
@@ -1516,7 +1516,7 @@
         "fr":  "voir, je vois, tu vois, il voit"
     },
     {
-        "nl":  "een buurman, buur",
+        "nl":  "een buurman",
         "fr":  "un voisin"
     },
     {
